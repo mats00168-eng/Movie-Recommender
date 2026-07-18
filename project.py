@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from difflib import get_close_matches
 
-df = pd.read_csv(r'D:\machine_learning_with_python_jadi-main\movies.csv')
+df = pd.read_csv('sample_movies')
 titles = df['title'].str.lower().tolist()
 tdf = TfidfVectorizer().fit_transform(df['genres'])
 sim = cosine_similarity(tdf)
@@ -24,4 +24,4 @@ def recommend(movie_name):
         result.append(df['title'][i[0]])
     return result
         
-print(recommend("Star Wars: Episode II - Attack of the Clones (2002)"))
+print(2)
