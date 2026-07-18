@@ -23,5 +23,3 @@ def recommend(movie_name):
     for i in scores[1:6]:
         result.append(df['title'][i[0]])
     return result
-        
-print(2)
