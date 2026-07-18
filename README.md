@@ -17,3 +17,11 @@ This is a simple content-based movie recommendation system built using Python an
 
 `python
 recommend("interstelar")
+
+##📂 Dataset
+A small sample dataset is included for demonstration.
+
+##🚀 Future Improvements
+Improve performance for large datasets
+Add a simple user interface
+This project was built for learning purposes.
